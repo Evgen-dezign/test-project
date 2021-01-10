@@ -1,30 +1,25 @@
 .first-p {color: red}
-        .my-id {
-            color: green;
-            background: hotpink;
-        }
-        .kvadr {
-            border-radius: 5%;
-
-         
-        }
-        .circle {
-         
-            border-radius: 50%;
-            
-        }
-        .wr {
-
-            display: flex;
-        }
-        .wr-block {
-            height: 100px;
-            width: 40%;
-            background-color: indigo;
-            color: white;
-            font-weight: 900;
-            font-size: 25px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+.my-id {
+    color: green;
+    background: hotpink;
+}
+.kvadr {
+    border-radius: 5%;
+}
+.circle {
+    border-radius: 50%;
+}
+.wr {
+    display: flex;
+}
+.wr-block {
+    height: 100px;
+    width: 40%;
+    background-color: indigo;
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
