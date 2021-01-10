@@ -1,54 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My site</title>
-    <style>
-        .first-p {color: red}
-        .my-id {
-            color: green;
-            background: hotpink;
-        }
-        .kvadr {
-            border-radius: 5%;
-
-         
-        }
-        .circle {
-         
-            border-radius: 50%;
-            
-        }
-        .wr {
-
-            display: flex;
-        }
-        .wr-block {
-            height: 100px;
-            width: 40%;
-            background-color: indigo;
-            color: white;
-            font-weight: 900;
-            font-size: 25px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Главная</h1>
     <p class="first-p">hello world world hello world world hello world world</p>
     <p>hell hello world world hello <span class="my-id">world</span> world hello world world</p>
 
-    <ol>
-        <li>1111</li>
-        <li>222</li>
-        <li>3333</li>
-        <li>44444</li>
-    </ol>
+    <ul>
+        <li class="active-link"><a href="#">Главная</a></li>
+        <li><a href="catalog.html">Каталог</a></li>
+    </ul>
     
     <div class="wr">
         <div class="kvadr wr-block">kvadr</div> 
